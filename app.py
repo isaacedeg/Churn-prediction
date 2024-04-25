@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-loaded_model = pickle.load(open('model/machine-learn.pkl', 'rb'))
+loaded_model = pickle.load(open('model/machine-learn.py', 'rb'))
 
 region_to_number = {
    'FATICK': 2, 
