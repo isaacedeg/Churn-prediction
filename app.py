@@ -1,6 +1,7 @@
 # import the streamlit library
 import streamlit as st
 import numpy as np
+import sklearn
 import pickle
 
 loaded_model = pickle.load(open('machine-learn.py', 'rb'))
